@@ -1,0 +1,315 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    box-sizing: border-box;
+    
+  }
+  $black: #0D444D;
+  $waves-color:#C5E1E6;
+  $yellow-bttn:#FFF5BA;
+  $bg:#2A8086;
+  $hero-text:#F3F7F8;
+  $footer-bg:#196469;
+  $bttn-lined:#19707D;
+
+  $bamboo-tree:
+  #2A8086;
+  @mixin h1 {
+    font: {
+      font-family: Rubik;
+      font-style: normal;
+      font-weight: 300;
+      font-size: 72px;
+      
+    }
+}
+
+@mixin top-menu {
+  font-family: Roboto Mono;
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 24px;
+
+
+text-transform: uppercase;
+
+color: #C4C4C4;
+
+}
+
+
+
+
+.bag-top {
+   width: 100vw;
+  background-color:$bg;
+}
+  .wrapper {
+    max-width: 1280px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin: 0 auto;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+  }
+  
+  .header {
+    background-color: $bamboo-tree;
+    width: 1920px;
+    height: 110px;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+  }
+
+
+  .nav-header {
+      list-style-type: none;
+      display: flex;
+      @include top-menu;
+      color: $waves-color;
+
+      
+  }
+
+  .nav-header-string {
+      padding-right: 69px;
+      margin-top:54px;
+  }
+
+  .logo-header{
+      padding-right: 20px;
+      margin-top: 20px;
+  }
+
+
+  .header-auth {
+    list-style-type: none;
+    display: flex;
+    
+    
+    
+  }
+
+  .header-auth > li {
+      padding-right:20px;
+      margin-top:51px;
+      white-space: nowrap;
+
+  }
+
+
+  .header-login {
+      margin-left: 90%;
+  }
+
+    .header-find-icon {
+      margin-left: 500%;
+        
+  }
+
+
+  .header-signup {
+    
+    border: 1px solid #C5E1E6;
+    box-sizing: border-box;
+    border-radius: 100px;
+   padding: 14px 15px 16px 14px;
+    
+    
+
+  }
+
+
+.hero {
+  display:flex;
+  flex-direction: row-reverse;
+  margin-top: 137px;
+  background-color: $bg;
+  
+}
+
+.heading-panda {
+  font-family: Rubik;
+font-style: normal;
+font-weight: 300;
+color: $hero-text;
+font-size: 50px;
+
+
+}
+
+.text-panda {
+  font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 20px;
+/* or 143% */
+
+
+/* hero-text */
+
+color: #F3F7F8;
+}
+
+.watch-panda-btn {
+  font-family: Roboto Mono;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 24px;
+/* identical to box height */
+border:none;
+
+letter-spacing: -0.05em;
+text-transform: uppercase;
+
+/* Bttn-black */
+
+color: #0D444D;
+background: #FFFFFF;
+width:258px;
+height:52px;
+border-radius: 100px;
+padding: 14px 84px;
+white-space: nowrap;
+margin-top: 110px;
+}
+
+
+
+.how-it-works-text {
+  font-family: Rubik;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 28px;
+text-transform: uppercase;
+color:$black;
+margin-top:20%;
+}
+
+.how-it-works-list {
+  display:flex;
+  margin-top:20%;
+ 
+
+}
+
+
+.how-it-works-image {
+  background: #E5E5E5;;
+  box-shadow: 0px 2px 50px rgba(0, 0, 0, 0.06);
+  border-radius: 300px;
+  padding: 41px 37px 40px 44px;
+  
+ 
+  
+}
+
+.how-it-works-component-text{
+  font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 20px;
+/* identical to box height, or 143% */
+
+text-align: center;
+
+/* black */
+white-space: nowrap;
+color: #0D444D;
+}
+
+.how-it-works-component {
+  padding-left: 20%;
+}
+
+
+
+
+.bag-mid {
+  width: 100%;
+  background-color:$bg;
+}
+
+.binoculars {
+  width: 145px;
+}
+
+
+.background-blue {
+  margin-top: 5%;
+  width:100%;
+
+}
+
+.background-blue-2 {
+  margin-top: -30%;
+  width:100%;
+
+}
+
+.scene-under-how-it-works-elements {
+  display: flex;
+  margin-top: -15%;
+}
+
+
+.round-tree {
+  padding-left: 5%;
+}
+
+.round-tree-little {
+  padding-left: 20%;
+  margin-top: -7%;
+  
+}
+
+
+
+.panda-with-tree {
+  padding-left: 5%;
+  
+}
+
+.bamboo-tree-2 {
+  padding-left: 47%;
+  position: absolute;
+}
+
+.round-tree-2 {
+  padding-left: 15%;
+}
+
+
+.header-pets-in-zoo {
+  display: flex;
+  margin-top: 80%; 
+  justify-content: flex-end;
+}
+
+
+.heading-pets-in-ZOO {
+  font-family: Rubik;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 28px;
+text-transform: uppercase;
+
+/* black */
+
+color: #0D444D;
+}
+
+
+
